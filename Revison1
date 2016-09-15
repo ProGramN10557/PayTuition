@@ -61,4 +61,5 @@ class Paytuition{
 CreditCard card = vishaal.payMoneytoNEU
 		Vishaal.PayMoneyToNEU(payment)
 Vishaal.RetrieveTuitionReceipt()
+}
 
