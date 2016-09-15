@@ -1,0 +1,64 @@
+Example : Pay Tuition
+
+Description : A student wants to pay his tuition through myNEU account
+
+
+
+Objects (with Behaviors and State): 
+	Object : Student
+		State : name, NU ID
+		Behavior : visitMyNEUWebsite(), ReviewTuitionPayment(),  payMoneyToNEU(), retrieveTuitionReceipt()
+
+
+	Object : MyNEUWebsite
+		State : Collection of fetures/tabs
+		Behavior : displayTabs(), UserName(),Password(),Payment(), acceptTuitionFeeFromStudent()
+
+	Object : CreditCard
+		State : name, CardNumber,ExpiryDate
+		Behavior : MakePayment()
+	}
+
+class Student{
+	String name;
+	String NUID;
+	void visitWebsite (MyNEUWebsite sw){}
+	void ReviewTuitionPayment(ReviewPayment sw) {}
+	payment payMoneyToNEU(payment) {}
+receipt retrieveTuitionReceipt(receipt) {}
+		
+}
+
+class MyNEUWebsite{
+	Tab[] tabs
+	Tab[] displayTabs(){}
+	void username(student a){}
+	void password(student a) {}
+	void payment(student a, payment) {}
+void acceptTuitionFeeFromStudent (student a, creditcard) {}		
+				
+}
+
+class creditcard{
+	String name
+Integer CardNumber
+Date Expiry Date
+	Float MakePayment(){}
+
+}
+
+class Paytuition{
+	public static void main(String args[]){
+		
+		MyNEUWebsite NEU = new MyNEUWebsite();
+		Creditcard vishaal = new creditcard()
+		
+		Student Vishal = new student();
+		Vishaal.name = "Vishaal";
+		
+		Vishaal.visitsWebsite(MyNEU);
+		Vishaal.reviewTuitionpayment(payment)
+CreditCard card = vishaal.payMoneytoNEU
+		Vishaal.PayMoneyToNEU(payment)
+Vishaal.RetrieveTuitionReceipt()
+
